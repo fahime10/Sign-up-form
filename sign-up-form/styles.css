@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+#container{ 
+    display: flex;
+}
+
+#right {
+    margin: 8rem 3rem;
+}
+
+img {
+    height: 100vh;
+    width: 35vw;
+}
+
+fieldset {
+    border: 1px solid black;
+    box-shadow: 5px 10px rgb(194, 191, 191);
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+}
