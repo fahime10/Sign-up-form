@@ -7,6 +7,43 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <div id="container">
+            <div id="left">
+                <img src="assets/halie-west-25xggax4bSA-unsplash.jpg" alt="image">
+            </div>
+            <div id="right">
+                <h3>
+                    This is a form that does not do anything, but it has form validation.
+                </h3>
+                <h3>Try <i>it</i> out!</h3>
+                <fieldset>
+                    <h4>Try the content here!</h4>
+                    <label for="first-name">
+                        First Name
+                        <input type="text" name="first-name" minlength="1" maxlength="20">
+                    </label>
+                    <label for="last-name">
+                        Last name
+                        <input type="text" name="last-name" minlength="1" maxlength="20">
+                    </label>
+                    <label for="email">
+                        Email
+                        <input type="email" name="email">
+                    </label>
+                    <label for="phone-number">
+                        Phone number
+                        <input type="text" name="phone-number">
+                    </label>
+                    <label for="password">
+                        Password
+                        <input type="password" minlength="4">
+                    </label>
+                    <label for="confirm-password">
+                        Confirm password
+                        <input type="password" minlength="4">
+                    </label>
+                </fieldset>
+            </div>
+        </div>
     </body>
 </html>
