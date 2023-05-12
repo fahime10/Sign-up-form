@@ -55,6 +55,11 @@ label {
     justify-content: space-between;
 }
 
+#error {
+    display: none;
+    color: red;
+}
+
 #right-side {
     margin-right: 5rem;
 }
