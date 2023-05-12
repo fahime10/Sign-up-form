@@ -21,43 +21,47 @@
                 <h3>Try <i>it</i> out!</h3>
                 <fieldset>
                     <h4>Try the content here!</h4>
-                    <div id="separate">
-                        <div id="left-side">
-                            <label for="first-name">
-                                First Name
-                            </label>
-                            <input type="text" id="first-name" name="first-name" minlength="1" maxlength="20">
-                            <label for="email">
-                                Email
-                            </label>
-                            <input type="email" id="email" name="email">
-                            <label for="password">
-                                Password
-                            </label>
-                            <input type="password" id="password" name="email" minlength="4">
+                    <form action="#" method="post">
+                        <div id="separate">
+                            <div id="left-side">
+                                <label for="first-name">
+                                    First Name
+                                </label>
+                                <input type="text" id="first-name" name="first-name" minlength="1" maxlength="20" required>
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email" name="email" required>
+                                <label for="password">
+                                    Password
+                                </label>
+                                <input type="password" id="password" name="password" minlength="4" required>
+                                <p id="error">Passwords do not match*</p>
+                            </div>
+                            <div id="right-side">
+                                <label for="last-name">
+                                    Last name
+                                </label>
+                                <input type="text" id="last-name" name="last-name" minlength="1" maxlength="20" required>
+                                <label for="phone-number">
+                                    Phone number
+                                </label>
+                                <input type="text" id="phone-number" name="phone-number">
+                                <label for="confirm-password">
+                                    Confirm password
+                                </label>
+                                <input type="password" id="confirm-password" name="confirm-password" minlength="4" required>
+                            </div>
                         </div>
-                        <div id="right-side">
-                            <label for="last-name">
-                                Last name
-                            </label>
-                            <input type="text" id="last-name" name="last-name" minlength="1" maxlength="20">
-                            <label for="phone-number">
-                                Phone number
-                            </label>
-                            <input type="text" id="phone-number" name="phone-number">
-                            <label for="confirm-password">
-                                Confirm password
-                            </label>
-                            <input type="password" id="confirm-password" name="confirm-password" minlength="4">
-                        </div>
-                    </div>
+                        <button type="submit" id="create-account">Create Account</button>
+                    </form>
                 </fieldset>
-                <button type="button">Create Account</button>
                 <div id="account">
                     <p>Already have an account?</p>
                     <a href="#">Log in</a>
                 </div>
             </div>
         </div>
+        <script src="scripts.js"></script>
     </body>
 </html>
